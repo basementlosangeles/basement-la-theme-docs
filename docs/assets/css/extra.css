@@ -1,0 +1,185 @@
+/* ==========================================================================
+   Basement LA brand system — SCOPED to .bla-* classes only.
+   Nothing here touches Material's default variables, so the developer docs
+   keep looking exactly as they do now. These classes are only used on the
+   merchant-guide pages (and the homepage hero).
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  /* PLACEHOLDER TOKENS — replace with your real theme values.
+     These are the SCSS variables to pull from your theme:
+       $color-background / $color-text / $color-accent / your font stack.
+     Until then, this approximates the brand's dark/underground tone. */
+  --bla-bg: #0b0b0c;
+  --bla-surface: #161618;
+  --bla-surface-hover: #1e1e20;
+  --bla-ink: #f2f1ec;
+  --bla-ink-muted: #8e8e8a;
+  --bla-accent: #e2402f;       /* swap for your real accent color */
+  --bla-line: #2a2a2a;
+
+  --bla-font-display: 'Archivo Black', sans-serif;  /* swap for your real display font */
+  --bla-font-body: 'Inter', sans-serif;              /* swap for your real body font */
+  --bla-font-mono: 'IBM Plex Mono', monospace;       /* used for labels/badges/ticker */
+}
+
+/* ---- Hero (homepage) ---------------------------------------------------- */
+
+.bla-hero {
+  background: var(--bla-bg);
+  color: var(--bla-ink);
+  padding: 4rem 2rem 3rem;
+  margin: -1.2rem -1.2rem 2.5rem;
+  border-bottom: 1px solid var(--bla-line);
+}
+
+@media (min-width: 76.25em) {
+  .bla-hero { margin: -1.2rem -1.2rem 2.5rem; padding: 5rem 3rem 3.5rem; }
+}
+
+.bla-hero__eyebrow {
+  font-family: var(--bla-font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--bla-accent);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.bla-hero h1 {
+  font-family: var(--bla-font-display) !important;
+  font-size: clamp(2.4rem, 6vw, 4.25rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem !important;
+  color: var(--bla-ink) !important;
+}
+
+.bla-hero p {
+  font-family: var(--bla-font-body);
+  color: var(--bla-ink-muted);
+  max-width: 42ch;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ---- Status ticker — nods to the clock/radio widget on the live site ---- */
+
+.bla-ticker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.75rem;
+  align-items: center;
+  font-family: var(--bla-font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bla-ink-muted);
+  border-top: 1px solid var(--bla-line);
+  border-bottom: 1px solid var(--bla-line);
+  padding: 0.7rem 0.25rem;
+  margin: 0 0 2rem;
+}
+
+.bla-ticker__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--bla-accent);
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* ---- Card grid (feature index, styled like a product grid) ------------- */
+
+.bla-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1px;
+  background: var(--bla-line);
+  border: 1px solid var(--bla-line);
+  margin: 2rem 0;
+}
+
+.bla-card {
+  background: var(--bla-surface);
+  padding: 1.5rem;
+  transition: background 0.15s ease;
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.bla-card:hover { background: var(--bla-surface-hover); }
+
+.bla-card__label {
+  font-family: var(--bla-font-mono);
+  font-size: 0.68rem;
+  color: var(--bla-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.bla-card__title {
+  font-family: var(--bla-font-display);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  color: var(--bla-ink) !important;
+  margin: 0;
+}
+
+.bla-card__desc {
+  font-family: var(--bla-font-body);
+  color: var(--bla-ink-muted);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.bla-card__arrow {
+  font-family: var(--bla-font-mono);
+  font-size: 0.8rem;
+  color: var(--bla-ink-muted);
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.bla-card:hover .bla-card__arrow { color: var(--bla-accent); }
+
+/* ---- Numbered steps (procedural — used only where order matters) ------- */
+
+.bla-step {
+  display: flex;
+  gap: 1rem;
+  margin: 0.9rem 0;
+  align-items: baseline;
+}
+
+.bla-step__num {
+  font-family: var(--bla-font-mono);
+  color: var(--bla-accent);
+  font-weight: 600;
+  flex-shrink: 0;
+  width: 1.5rem;
+}
+
+.bla-step__body { font-family: var(--bla-font-body); }
+
+/* ---- Badge (used for "watch out" / status callouts in card copy) ------- */
+
+.bla-badge {
+  display: inline-block;
+  font-family: var(--bla-font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bla-accent);
+  border: 1px solid var(--bla-accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+}

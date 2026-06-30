@@ -1,0 +1,60 @@
+site_name: Basement LA Theme Docs
+site_description: Guide to the Basement LA Shopify theme — for merchants and developers
+
+# IMPORTANT: update these two lines once you create the repo on GitHub
+# If repo is "basement-la-theme-docs" under username "yourname":
+site_url: https://yourname.github.io/basement-la-theme-docs/
+repo_url: https://github.com/yourname/basement-la-theme-docs
+repo_name: basement-la-theme-docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs        # <- this is what gives you the Merchant/Developer split at the top
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  # Optional - drop a logo/favicon in docs/assets/img/ and uncomment:
+  # logo: assets/img/logo.png
+  # favicon: assets/img/favicon.png
+
+markdown_extensions:
+  - admonition          # nice callout boxes (note/warning/tip)
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+  - md_in_html           # lets you drop raw <video>/<iframe> tags into markdown
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Merchant Guide:
+      - Overview: merchant-guide/index.md
+      - "Example: Changing the Homepage Banner": merchant-guide/example-feature.md
+  - Developer Docs:
+      - Overview: developer-guide/index.md
+      - Theme Architecture: developer-guide/architecture.md
+
+extra_css:
+  - assets/css/extra.css
