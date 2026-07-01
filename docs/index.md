@@ -9,9 +9,9 @@ No code, no guesswork — pick a guide below.
 </div>
 
 <div class="bla-ticker" markdown>
-<span><span class="bla-ticker__dot"></span>Site Status: Live</span>
-<span>Theme: Custom (no base theme)</span>
-<span>Last Reviewed: Update this each edit</span>
+<span><span class="bla-ticker__dot"></span>Site Status: Live</span><br />
+<span>Theme: JUST BASEMENT V.1</span><br />
+<span>Last Reviewed: June 21, 2026</span>
 </div>
 
 <div class="bla-grid" markdown>
@@ -19,14 +19,14 @@ No code, no guesswork — pick a guide below.
 <a class="bla-card" href="merchant-guide/index.md">
 <span class="bla-card__label">For the team</span>
 <span class="bla-card__title">Merchant Guide</span>
-<span class="bla-card__desc">Short visual walkthroughs for changing things in the Shopify admin — banners, product info, collections, footer.</span>
+<span class="bla-card__desc">Step-by-step walkthroughs for every editable part of the theme — header, homepage, product & collection pages, cart, popups, footer, and the standalone pages.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
 <a class="bla-card" href="developer-guide/index.md">
 <span class="bla-card__label">For developers</span>
 <span class="bla-card__title">Developer Docs</span>
-<span class="bla-card__desc">Architecture, section/snippet conventions, metafield & metaobject schema, and the reasoning behind key decisions.</span>
+<span class="bla-card__desc">Architecture plus a per-section reference covering schema settings, metafield dependencies, snippets rendered, and where each section is used.</span>
 <span class="bla-card__arrow">View docs →</span>
 </a>
 

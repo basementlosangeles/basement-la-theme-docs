@@ -49,9 +49,61 @@ nav:
   - Merchant Guide:
       - Overview: merchant-guide/index.md
       - "Example: Changing the Homepage Banner": merchant-guide/example-feature.md
+      - Homepage & Hero:
+          - Homepage Hero: merchant-guide/homepage.md
+      - Header & Footer:
+          - Header / Navigation: merchant-guide/header-menu.md
+          - Announcement Bar: merchant-guide/announcement-bar.md
+          - Footer: merchant-guide/footer.md
+      - Product Pages:
+          - Product Pages: merchant-guide/product.md
+          - Related Products: merchant-guide/related-products.md
+          - Buy Together & Save: merchant-guide/buy-together-products-section.md
+          - Community Panel: merchant-guide/community-side-panel.md
+      - Collections:
+          - Collection Pages: merchant-guide/collection.md
+      - Cart & Popups:
+          - Cart (Slide-Out): merchant-guide/cart-sidebar.md
+          - Code Popup: merchant-guide/code-popup.md
+          - Waitlist Modal: merchant-guide/join-waitlist-modal.md
+          - Basement Radio: merchant-guide/radio-sidebar.md
+      - Other Pages:
+          - Contact: merchant-guide/contact.md
+          - FAQ: merchant-guide/faq-page.md
+          - Signup / Restock Alert: merchant-guide/signup.md
+          - Password (Coming Soon): merchant-guide/password.md
+          - Archive: merchant-guide/archive.md
+          - 404 Page: merchant-guide/404.md
+      - Layout:
+          - Spacer: merchant-guide/spacer.md
   - Developer Docs:
       - Overview: developer-guide/index.md
       - Theme Architecture: developer-guide/architecture.md
+      - Sections:
+          - 404 Page: developer-guide/404.md
+          - About: developer-guide/about-page.md
+          - Announcement Bar: developer-guide/announcement-bar.md
+          - Archive: developer-guide/archive.md
+          - Buy Together Products: developer-guide/buy-together-products-section.md
+          - Cart Sidebar: developer-guide/cart-sidebar.md
+          - Code Popup: developer-guide/code-popup.md
+          - Collection: developer-guide/collection.md
+          - Community Side Panel: developer-guide/community-side-panel.md
+          - Contact: developer-guide/contact.md
+          - Default Page: developer-guide/default-page.md
+          - FAQ Page: developer-guide/faq-page.md
+          - Footer: developer-guide/footer.md
+          - Header Menu: developer-guide/header-menu.md
+          - Homepage: developer-guide/homepage.md
+          - Join Waitlist Modal: developer-guide/join-waitlist-modal.md
+          - Password: developer-guide/password.md
+          - Policy Page Section: developer-guide/policy-page-section.md
+          - Policy Page (legacy): developer-guide/policy-page.md
+          - Product: developer-guide/product.md
+          - Basement Radio Sidebar: developer-guide/radio-sidebar.md
+          - Related Products: developer-guide/related-products.md
+          - Signup: developer-guide/signup.md
+          - Spacer: developer-guide/spacer.md
 
 extra_css:
   - assets/css/extra.css
