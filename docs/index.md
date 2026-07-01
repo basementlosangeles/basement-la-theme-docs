@@ -16,14 +16,14 @@ No code, no guesswork — pick a guide below.
 
 <div class="bla-grid" markdown>
 
-<a class="bla-card" href="merchant-guide/index.md">
+<a class="bla-card" href="merchant-guide/">
 <span class="bla-card__label">For the team</span>
 <span class="bla-card__title">Merchant Guide</span>
 <span class="bla-card__desc">Step-by-step walkthroughs for every editable part of the theme — header, homepage, product & collection pages, cart, popups, footer, and the standalone pages.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
-<a class="bla-card" href="developer-guide/index.md">
+<a class="bla-card" href="developer-guide/">
 <span class="bla-card__label">For developers</span>
 <span class="bla-card__title">Developer Docs</span>
 <span class="bla-card__desc">Architecture plus a per-section reference covering schema settings, metafield dependencies, snippets rendered, and where each section is used.</span>
