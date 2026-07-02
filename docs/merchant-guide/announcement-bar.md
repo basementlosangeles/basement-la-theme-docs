@@ -10,7 +10,14 @@ sidebar open the **Header** group → click **Announcement Bar**.
 
 ## Editing the Text
 
-![Editing the announcement text](../assets/gifs/announcement-bar-text.gif)
+<!-- ![Editing the announcement text](../assets/gifs/announcement-bar-text.gif) -->
+<iframe width="100%" height="400"
+  src="https://www.youtube.com/embed/q9byUS4dbkc?autoplay=1&mute=1&loop=1&playlist=q9byUS4dbkc&controls=0&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1"
+  title="Editing the announcement text"
+  frameborder="0" 
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 
 <div class="bla-step" markdown>
 <span class="bla-step__num">01</span>
@@ -34,7 +41,14 @@ sidebar open the **Header** group → click **Announcement Bar**.
 
 ## Adding a Countdown
 
-![Adding a countdown to the announcement bar](../assets/gifs/announcement-bar-countdown.gif)
+<!-- ![Adding a countdown to the announcement bar](../assets/gifs/announcement-bar-countdown.gif) -->
+<iframe width="100%" height="400"
+  src="https://www.youtube.com/embed/alr-x_xQJB8?autoplay=1&mute=1&loop=1&playlist=alr-x_xQJB8&controls=0&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1"
+  title="Adding a countdown to the announcement bar"
+  frameborder="0" 
+  allow="autoplay; encrypted-media" 
+  allowfullscreen>
+</iframe>
 
 <div class="bla-step" markdown>
 <span class="bla-step__num">01</span>
