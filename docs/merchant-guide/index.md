@@ -7,15 +7,29 @@
 
 Each guide below follows the same format: what it changes, where to find it in the
 theme editor, a short GIF or video of the click-path, and anything to watch out for.
+Guides are grouped the same way as the sidebar, so start with the section heading
+that matches what you're trying to change.
 
-<div class="bla-grid" markdown>
+## Homepage & Hero
 
+!!! note "Not published yet"
+    The homepage is currently built from the [Collection Pages](#collections) grid,
+    not a separate hero section — so there's no guide card here yet. See the
+    [developer note](../developer-guide/homepage.md) if you're not sure which one
+    is live on your site.
+
+<!-- Once confirmed active, uncomment and move into a <div class="bla-grid" markdown> block:
 <a class="bla-card" href="homepage/">
 <span class="bla-card__label">Homepage</span>
 <span class="bla-card__title">Homepage Hero</span>
 <span class="bla-card__desc">Swap the hero image/video, overlay, and the "Enter Basement" button.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
+-->
+
+## Header & Footer
+
+<div class="bla-grid" markdown>
 
 <a class="bla-card" href="header-menu/">
 <span class="bla-card__label">Header</span>
@@ -37,6 +51,12 @@ theme editor, a short GIF or video of the click-path, and anything to watch out 
 <span class="bla-card__desc">Footer menus, the early-access signup, logo link, and copyright.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
+
+</div>
+
+## Product Page
+
+<div class="bla-grid" markdown>
 
 <a class="bla-card" href="product/">
 <span class="bla-card__label">Product</span>
@@ -66,17 +86,36 @@ theme editor, a short GIF or video of the click-path, and anything to watch out 
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
+</div>
+
+## Collections
+
+<div class="bla-grid" markdown>
+
 <a class="bla-card" href="collection/">
 <span class="bla-card__label">Collection</span>
-<span class="bla-card__title">Collection Pages</span>
+<span class="bla-card__title">Collection Page</span>
 <span class="bla-card__desc">Grid columns, the filter bar, badges, and in-grid promo banners.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
+</div>
+
+## Sidebars & Popups
+
+<div class="bla-grid" markdown>
+
 <a class="bla-card" href="cart-sidebar/">
 <span class="bla-card__label">Cart</span>
-<span class="bla-card__title">Cart (Slide-Out)</span>
+<span class="bla-card__title">Cart Sidebar</span>
 <span class="bla-card__desc">Free-shipping bar, recommendations, badges, and empty-cart copy.</span>
+<span class="bla-card__arrow">View guide →</span>
+</a>
+
+<a class="bla-card" href="radio-sidebar/">
+<span class="bla-card__label">Radio</span>
+<span class="bla-card__title">Basement Radio</span>
+<span class="bla-card__desc">Colors and fallback image for the slide-out audio panel.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
@@ -94,12 +133,11 @@ theme editor, a short GIF or video of the click-path, and anything to watch out 
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
-<a class="bla-card" href="radio-sidebar/">
-<span class="bla-card__label">Radio</span>
-<span class="bla-card__title">Basement Radio</span>
-<span class="bla-card__desc">Colors and fallback image for the slide-out audio panel.</span>
-<span class="bla-card__arrow">View guide →</span>
-</a>
+</div>
+
+## Other Pages
+
+<div class="bla-grid" markdown>
 
 <a class="bla-card" href="contact/">
 <span class="bla-card__label">Pages</span>
@@ -124,7 +162,7 @@ theme editor, a short GIF or video of the click-path, and anything to watch out 
 
 <a class="bla-card" href="password/">
 <span class="bla-card__label">Pages</span>
-<span class="bla-card__title">Password (Coming Soon)</span>
+<span class="bla-card__title">Password</span>
 <span class="bla-card__desc">The locked-store page — title, countdown, and image carousel.</span>
 <span class="bla-card__arrow">View guide →</span>
 </a>
@@ -143,6 +181,12 @@ theme editor, a short GIF or video of the click-path, and anything to watch out 
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
+</div>
+
+## Layout
+
+<div class="bla-grid" markdown>
+
 <a class="bla-card" href="spacer/">
 <span class="bla-card__label">Layout</span>
 <span class="bla-card__title">Spacer</span>
@@ -150,11 +194,12 @@ theme editor, a short GIF or video of the click-path, and anything to watch out 
 <span class="bla-card__arrow">View guide →</span>
 </a>
 
-<!-- Add more <a class="bla-card"> entries as you write more pages.
-     Keep label / title / desc / arrow spans — that's what gives each
-     card the same look. -->
-
 </div>
+
+<!-- Add more <a class="bla-card"> entries under the matching heading above as you
+     write more pages. Keep label / title / desc / arrow spans — that's what gives
+     each card the same look. New top-level categories should also be added to the
+     "Merchant Guide" nav group in mkdocs.yml. -->
 
 !!! tip "Can't find what you're looking for?"
     If something you want to change isn't documented yet, check the

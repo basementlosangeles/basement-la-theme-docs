@@ -49,24 +49,24 @@ nav:
   - Merchant Guide:
       - Overview: merchant-guide/index.md
       - "Example: Changing the Homepage Banner": merchant-guide/example-feature.md
-      - Homepage & Hero:
-          - Homepage Hero: merchant-guide/homepage.md
+      # - Homepage & Hero:
+      #     - Homepage Hero: merchant-guide/homepage.md
       - Header & Footer:
           - Header / Navigation: merchant-guide/header-menu.md
           - Announcement Bar: merchant-guide/announcement-bar.md
           - Footer: merchant-guide/footer.md
-      - Product Pages:
+      - Product Page:
           - Product Pages: merchant-guide/product.md
           - Related Products: merchant-guide/related-products.md
           - Buy Together & Save: merchant-guide/buy-together-products-section.md
           - Community Panel: merchant-guide/community-side-panel.md
       - Collections:
           - Collection Pages: merchant-guide/collection.md
-      - Cart & Popups:
-          - Cart (Slide-Out): merchant-guide/cart-sidebar.md
+      - Sidebars & Popups:
+          - Cart Sidebar: merchant-guide/cart-sidebar.md
+          - Basement Radio: merchant-guide/radio-sidebar.md
           - Code Popup: merchant-guide/code-popup.md
           - Waitlist Modal: merchant-guide/join-waitlist-modal.md
-          - Basement Radio: merchant-guide/radio-sidebar.md
       - Other Pages:
           - Contact: merchant-guide/contact.md
           - FAQ: merchant-guide/faq-page.md
