@@ -1,0 +1,2166 @@
+{
+  "generated_at": "2026-07-01T00:54:36+00:00",
+  "global_settings": [
+    {
+      "name": "Header Menu",
+      "settings": {
+        "header-background-color": {
+          "default": "rgba(255, 255, 255, 1)",
+          "info": null,
+          "label": "Header Background Color",
+          "type": "color"
+        },
+        "header-left-menu": {
+          "default": null,
+          "info": "Nav Menu on 'Header Menu' to the left of website logo (Can Be Configured on Admin Page -> Content -> Menus)",
+          "label": "Header Left Menu",
+          "type": "link_list"
+        },
+        "header-menu-item-title-for-radio": {
+          "default": "Basement Radio",
+          "info": null,
+          "label": "Header Menu Item Title for Basement Radio",
+          "type": "text"
+        },
+        "header-menu-item-title-for-shop-drawer": {
+          "default": "Shop All",
+          "info": "This Menu Item Will Open the Shop Drawer on Hover",
+          "label": "Header Menu Item Title for Shop Drawer",
+          "type": "text"
+        },
+        "header-right-menu": {
+          "default": null,
+          "info": "Nav Menu on 'Header Menu' to the right of website logo (Can Be Configured on Admin Page -> Content -> Menus)",
+          "label": "Header Right Menu",
+          "type": "link_list"
+        }
+      }
+    },
+    {
+      "name": "Header Sidebar",
+      "settings": {
+        "header-sidebar-main-menu": {
+          "default": null,
+          "info": "All the Menu Links on Sidebar that are Available",
+          "label": "Header Sidebar Main Menu",
+          "type": "link_list"
+        },
+        "header-sidebar-menu-item-title-for-shop-view": {
+          "default": "Shop",
+          "info": "This Menu Item Will Open the Shop View on Click",
+          "label": "Header Sidebar Menu Item Title for Shop View",
+          "type": "text"
+        },
+        "header-sidebar-soon-menu": {
+          "default": null,
+          "info": "All the Menu Links on Sidebar that are Coming Soon",
+          "label": "Header Sidebar Soon Menu",
+          "type": "link_list"
+        }
+      }
+    },
+    {
+      "name": "Product",
+      "settings": {
+        "product-preorder-text-format": {
+          "default": "Preorder",
+          "info": "This will specify the way the 'Preorder' text should be spelled for it to be considered a Preorder for Product",
+          "label": "Product Preorder Text Format",
+          "type": "text"
+        },
+        "product-title-trademark-font": {
+          "default": "arial_n7",
+          "info": null,
+          "label": "Product Title Trademark Font",
+          "type": "font_picker"
+        }
+      }
+    },
+    {
+      "name": "Free Shipping",
+      "settings": {
+        "free-shipping-amount-threshold": {
+          "default": 17500,
+          "info": "[$1.23 -> 123] (Ensure It is Consistent with the Free Shipping Discount)",
+          "label": "Free Shipping Threshold",
+          "type": "number"
+        }
+      }
+    },
+    {
+      "name": "Buy Together Products",
+      "settings": {
+        "buy-together-background-color": {
+          "default": "rgba(243, 243, 243, 1)",
+          "info": null,
+          "label": "Buy Together Background Color",
+          "type": "color"
+        },
+        "buy-together-collection": {
+          "default": null,
+          "info": "Include All Variants of Each Product in Collection",
+          "label": "Buy Together Collection",
+          "type": "collection"
+        },
+        "buy-together-discount-amount": {
+          "default": 10,
+          "info": "Be Sure to Keep It Consistent with Discounts 'Percentage Amount'",
+          "label": "Buy Together Discount Amount (%)",
+          "type": "number"
+        },
+        "buy-together-discount-code": {
+          "default": "BUYANYGET10OFF",
+          "info": "Be Sure to Keep It Consistent with Discounts 'Title'",
+          "label": "Buy Together Discount Code",
+          "type": "text"
+        },
+        "buy-together-max-items-amount": {
+          "default": 3,
+          "info": "Set to -1 for Unlimited",
+          "label": "Buy Together Max Product Items Amount",
+          "type": "number"
+        },
+        "buy-together-no-products-text": {
+          "default": "No Products Found",
+          "info": null,
+          "label": "Buy Together No Products Text",
+          "type": "text"
+        },
+        "buy-together-title": {
+          "default": "Buy Any and Get Additional 10% Off",
+          "info": null,
+          "label": "Buy Together Title",
+          "type": "text"
+        },
+        "desktop--buy-together-product-title-trademark-margin-left": {
+          "default": 4,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Desktop Buy Together Product Title Trademark Margin Left (PX)",
+          "type": "number"
+        },
+        "mobile--buy-together-product-title-trademark-margin-left": {
+          "default": 2,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Mobile Buy Together Product Title Trademark Margin Left (PX)",
+          "type": "number"
+        }
+      }
+    },
+    {
+      "name": "Code Popup Settings",
+      "settings": {
+        "code-popup-primary-color": {
+          "default": "#ffce00",
+          "info": null,
+          "label": "Code Popup Primary Color",
+          "type": "color"
+        },
+        "code-popup-text-color": {
+          "default": "#ffffff",
+          "info": null,
+          "label": "Code Popup Text Color",
+          "type": "color"
+        }
+      }
+    },
+    {
+      "name": "Primary Color Settings",
+      "settings": {
+        "loading-gif-background-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Loading Gif Background Color",
+          "type": "color"
+        },
+        "primary-backdrop-color": {
+          "default": "rgba(17, 17, 17, 0.3)",
+          "info": null,
+          "label": "Primary Backdrop Color",
+          "type": "color"
+        },
+        "primary-background-color": {
+          "default": "#ECECEC",
+          "info": null,
+          "label": "Primary Background Color",
+          "type": "color"
+        },
+        "primary-border-color": {
+          "default": "rgba(17, 17, 17, 0.1)",
+          "info": null,
+          "label": "Primary Border Color",
+          "type": "color"
+        },
+        "primary-border-shadow-color": {
+          "default": "rgba(73, 73, 73, 0.5)",
+          "info": null,
+          "label": "Primary Border Shadow Color",
+          "type": "color"
+        },
+        "primary-border-thickness": {
+          "default": 1,
+          "info": null,
+          "label": "Primary Border Thickness",
+          "type": "number"
+        },
+        "primary-btn-animation-time": {
+          "default": "0.15s",
+          "info": "Used to Transition Between Background Colors (Ex: Hover)",
+          "label": "Primary Button Animation Time",
+          "type": "text"
+        },
+        "primary-btn-background-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Primary Button Background Color",
+          "type": "color"
+        },
+        "primary-btn-disabled-background-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Primary Button Disabled Background Color",
+          "type": "color"
+        },
+        "primary-btn-disabled-text-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Primary Button Disabled Text Color",
+          "type": "color"
+        },
+        "primary-btn-hover-background-color": {
+          "default": "rgba(51, 51, 51, 1)",
+          "info": null,
+          "label": "Primary Button Hover Background Color",
+          "type": "color"
+        },
+        "primary-btn-text-color": {
+          "default": "rgba(255, 255, 255, 1)",
+          "info": null,
+          "label": "Primary Button Text Color",
+          "type": "color"
+        },
+        "primary-input-border-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Primary Input Border Color",
+          "type": "color"
+        },
+        "primary-input-border-thickness": {
+          "default": 1,
+          "info": null,
+          "label": "Primary Input Border Thickness",
+          "type": "number"
+        },
+        "primary-input-disabled-background-color": {
+          "default": "rgba(217, 217, 217, 1)",
+          "info": null,
+          "label": "Primary Input Disabled Background Color",
+          "type": "color"
+        },
+        "primary-input-invalid-border-color": {
+          "default": "rgba(237, 31, 36, 1)",
+          "info": null,
+          "label": "Primary Input Error Border Color",
+          "type": "color"
+        },
+        "primary-input-placeholder-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Primary Input Placeholder Text Color",
+          "type": "color"
+        },
+        "primary-input-placeholder-disabled-color": {
+          "default": "rgba(17, 17, 17, 0.3)",
+          "info": null,
+          "label": "Primary Input Placeholder Disabled Text Color",
+          "type": "color"
+        },
+        "primary-input-selected-border-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Primary Input Selected Border Color",
+          "type": "color"
+        },
+        "primary-text-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Primary Text Color",
+          "type": "color"
+        },
+        "secondary-text-color": {
+          "default": "#454545",
+          "info": null,
+          "label": "Secondary Text Color",
+          "type": "color"
+        }
+      }
+    },
+    {
+      "name": "Product Color Settings",
+      "settings": {
+        "item-hover-border-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Item Hover Border Color",
+          "type": "color"
+        },
+        "item-selected-border-color": {
+          "default": "#111111",
+          "info": null,
+          "label": "Item Selected Border Color",
+          "type": "color"
+        },
+        "product-background-color": {
+          "default": "rgba(217, 217, 217, 1)",
+          "info": null,
+          "label": "Product Background Color",
+          "type": "color"
+        },
+        "product-color-item-border-thickness": {
+          "default": 1,
+          "info": null,
+          "label": "Product Color Item Border Thickness",
+          "type": "number"
+        },
+        "product-default-color-title": {
+          "default": "Default",
+          "info": null,
+          "label": "Product Default Color Title",
+          "type": "text"
+        },
+        "product-default-size-title": {
+          "default": "Standard",
+          "info": null,
+          "label": "Product Default Size Title",
+          "type": "text"
+        },
+        "product-size-btn-backdrop-blur": {
+          "default": 6,
+          "info": null,
+          "label": "Product Size Button Backdrop Blur Amount (PX)",
+          "type": "number"
+        },
+        "product-size-btn-backdrop-color": {
+          "default": "rgba(58, 58, 58, 0.01)",
+          "info": null,
+          "label": "Product Size Button Backdrop Color",
+          "type": "color"
+        },
+        "product-size-btn-background-color": {
+          "default": "rgba(236, 236, 236, 1)",
+          "info": null,
+          "label": "Product Size Button Background Color",
+          "type": "color"
+        },
+        "product-size-btn-border-thickness": {
+          "default": 1,
+          "info": null,
+          "label": "Product Size Button Border Thickness",
+          "type": "number"
+        },
+        "product-size-btn-text-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Product Size Button Text Color",
+          "type": "color"
+        },
+        "product-size-btn-text-color-disabled": {
+          "default": "rgba(17, 17, 17, 0.3)",
+          "info": null,
+          "label": "Product Size Button Disabled Text Color",
+          "type": "color"
+        },
+        "product-size-dropdown-border-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Product Size Dropdown Border Color",
+          "type": "color"
+        },
+        "product-size-dropdown-selected-border-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Product Size Dropdown Selected Border Color",
+          "type": "color"
+        },
+        "product-size-dropdown-text-color-sold-out": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Product Size Dropdown Sold Out Text Color",
+          "type": "color"
+        },
+        "product-size-option-text-color-sold-out": {
+          "default": "rgba(17, 17, 17, 0.3)",
+          "info": null,
+          "label": "Product Size Option Sold Out Text Color",
+          "type": "color"
+        },
+        "product-slash-price-text-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Product Price with Slash Text Color",
+          "type": "color"
+        }
+      }
+    },
+    {
+      "name": "Other Color Settings",
+      "settings": {
+        "active-arrow-nav-btn-color": {
+          "default": "#111111",
+          "info": null,
+          "label": "Active Arrow Nav Btn Color",
+          "type": "color"
+        },
+        "arrow-nav-btn-background-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Arrow Nav Btn Background Color",
+          "type": "color"
+        },
+        "inactive-arrow-nav-btn-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Inactive Arrow Nav Btn Color",
+          "type": "color"
+        }
+      }
+    }
+  ],
+  "section_groups": [
+    "header-group-no-background.json",
+    "header-group.json"
+  ],
+  "sections": {
+    "404": {
+      "blocks": {},
+      "file": "sections/404.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "404 Page",
+      "preset_category": "Pages",
+      "references_metaobject": false,
+      "settings": {
+        "shop-btn-background-color": {
+          "default": "#ED1F24",
+          "info": null,
+          "label": "Shop Button Background Color",
+          "type": "color"
+        },
+        "shop-btn-link": {
+          "default": "/collections/all",
+          "info": null,
+          "label": "Shop Button Link",
+          "type": "url"
+        },
+        "shop-btn-text": {
+          "default": "Shop All",
+          "info": null,
+          "label": "Shop Button Text",
+          "type": "text"
+        },
+        "shop-btn-text-color": {
+          "default": "rgba(255, 255, 255, 1)",
+          "info": null,
+          "label": "Shop Button Text Color",
+          "type": "color"
+        },
+        "title-text": {
+          "default": "Page Not Found",
+          "info": null,
+          "label": "Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/404.json"
+        }
+      ]
+    },
+    "about-page": {
+      "blocks": {},
+      "file": "sections/about-page.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "About",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {},
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-text-theme",
+          "template": "templates/page.About.json"
+        }
+      ]
+    },
+    "announcement-bar": {
+      "blocks": {},
+      "file": "sections/announcement-bar.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Announcement Bar",
+      "preset_category": "Header Group",
+      "references_metaobject": false,
+      "settings": {
+        "announcement_background_color": {
+          "default": "#3b3b3bff",
+          "info": null,
+          "label": "Announcement Background Color",
+          "type": "color"
+        },
+        "announcement_text": {
+          "default": "FREE SHIPPING ON US ORDERS 175+",
+          "info": null,
+          "label": "Announcement Text",
+          "type": "text"
+        },
+        "announcement_text_color": {
+          "default": "#ffffff",
+          "info": null,
+          "label": "Announcement Text Color",
+          "type": "color"
+        },
+        "date-time-before-drop": {
+          "default": "08/25/2025 15:50:00",
+          "info": "Format: mm/dd/yyyy hh:mm:ss",
+          "label": "Date and Time Before Drop",
+          "type": "text"
+        },
+        "is-countdown-enabled": {
+          "default": false,
+          "info": null,
+          "label": "Is Countdown Enabled?",
+          "type": "checkbox"
+        },
+        "time_background_color": {
+          "default": "#d9d9d9ff",
+          "info": null,
+          "label": "Time Block Background Color",
+          "type": "color"
+        },
+        "time_text_color": {
+          "default": "#3A3A3A",
+          "info": null,
+          "label": "Time Block Text Color",
+          "type": "color"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [
+        "header-group-no-background.json",
+        "header-group.json"
+      ],
+      "used_in_templates": []
+    },
+    "archive": {
+      "blocks": {},
+      "file": "sections/archive.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Archive",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "background-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Background Color",
+          "type": "color"
+        },
+        "scrollbar-foreground-color": {
+          "default": "#d9d9d9",
+          "info": null,
+          "label": "Scrollbar Foreground Color",
+          "type": "color"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-cover-theme",
+          "template": "templates/page.Archive.json"
+        }
+      ]
+    },
+    "buy-together-products-section": {
+      "blocks": {},
+      "file": "sections/buy-together-products-section.liquid",
+      "max_blocks": null,
+      "metafields": [
+        "custom.buy_together_and_get_featured_products",
+        "custom.color_label",
+        "custom.color_value"
+      ],
+      "name": "Buy Together Products",
+      "preset_category": "Product",
+      "references_metaobject": false,
+      "settings": {},
+      "snippets_rendered": [
+        "processed-product-title",
+        "processed-product-title-pure"
+      ],
+      "snippets_rendered_transitive": [
+        "processed-product-title",
+        "processed-product-title-pure"
+      ],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/product.json"
+        }
+      ]
+    },
+    "cart-sidebar": {
+      "blocks": {},
+      "file": "sections/cart-sidebar.liquid",
+      "max_blocks": null,
+      "metafields": [
+        "custom.color_label",
+        "custom.color_value"
+      ],
+      "name": "Cart Sidebar",
+      "preset_category": "Header Menu",
+      "references_metaobject": false,
+      "settings": {
+        "best-sellers-btn-background-color": {
+          "default": "rgba(237, 31, 36, 1)",
+          "info": null,
+          "label": "Best Sellers Button Background Color",
+          "type": "color"
+        },
+        "best-sellers-btn-hover-background-color": {
+          "default": "rgba(212, 14, 19, 1)",
+          "info": null,
+          "label": "Best Sellers Button Hover Background Color",
+          "type": "color"
+        },
+        "best-sellers-btn-link": {
+          "default": null,
+          "info": null,
+          "label": "Best Sellers Button Link",
+          "type": "url"
+        },
+        "best-sellers-btn-text-color": {
+          "default": "rgba(255, 255, 255, 1)",
+          "info": null,
+          "label": "Best Sellers Button Text Color",
+          "type": "color"
+        },
+        "cart-recommendations-collection": {
+          "default": null,
+          "info": null,
+          "label": "Recommendation Collection",
+          "type": "collection"
+        },
+        "checkout-extra-text": {
+          "default": "Taxes and shipping calculated at checkout",
+          "info": null,
+          "label": "Checkout Extra Text",
+          "type": "text"
+        },
+        "desktop--product-title-trademark-margin-left": {
+          "default": 4,
+          "info": "Adjusts Distance From the Left of Product Title (Used for Cart Items and Recommendations)",
+          "label": "Desktop Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "discount-badge-background-blur": {
+          "default": 5,
+          "info": "(PX)",
+          "label": "Discount Badge Background Blur",
+          "type": "number"
+        },
+        "discount-badge-background-color": {
+          "default": "rgba(84, 62, 62, 0.75)",
+          "info": null,
+          "label": "Discount Badge Background Color",
+          "type": "color"
+        },
+        "discount-badge-border-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Discount Badge Border Color",
+          "type": "color"
+        },
+        "discount-badge-border-thickness": {
+          "default": 1,
+          "info": "(PX)",
+          "label": "Discount Badge Border Thickess",
+          "type": "number"
+        },
+        "discount-badge-text-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Discount Badge Text Color",
+          "type": "color"
+        },
+        "empty-cart-text": {
+          "default": "your cart is currently empty...",
+          "info": null,
+          "label": "Empty Cart Text",
+          "type": "text"
+        },
+        "max-cart-recommendations-amount": {
+          "default": 3,
+          "info": "Set to -1 for Unlimited",
+          "label": "Max Recommendation Amount",
+          "type": "number"
+        },
+        "mobile--product-title-trademark-margin-left": {
+          "default": 2,
+          "info": "Adjusts Distance From the Left of Product Title (Used for Cart Items and Recommendations)",
+          "label": "Mobile Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "no-products-text": {
+          "default": "No Recommendations Available",
+          "info": null,
+          "label": "No Recommendations Available Text",
+          "type": "text"
+        },
+        "product-show-products-view": {
+          "default": null,
+          "info": "Only Works When 'Show Cart with Products View' is Enabled",
+          "label": "Product for Show Products View",
+          "type": "product"
+        },
+        "progress-bar-background-color": {
+          "default": "rgba(217, 217, 217, 1)",
+          "info": null,
+          "label": "Free Shipping Bar Background Color",
+          "type": "color"
+        },
+        "progress-bar-fill-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Free Shipping Bar Fill Color",
+          "type": "color"
+        },
+        "progress-bar-info-text-achieved": {
+          "default": "You Get Free Shipping!",
+          "info": null,
+          "label": "Free Shipping Bar Achieved Text",
+          "type": "text"
+        },
+        "progress-bar-info-text-less": {
+          "default": "Away From Free Shipping",
+          "info": null,
+          "label": "Free Shipping Bar Less Than Text",
+          "type": "text"
+        },
+        "progress-bar-info-text-not-work": {
+          "default": "Free Shipping does not apply with discounts",
+          "info": null,
+          "label": "No Free Shipping Due to Discounts Text",
+          "type": "text"
+        },
+        "recommendations-title-text": {
+          "default": "Recommendations",
+          "info": null,
+          "label": "Recommendations Title Text",
+          "type": "text"
+        },
+        "remove-btn-hover-color": {
+          "default": "rgba(207, 58, 50, 1)",
+          "info": null,
+          "label": "Remove Button Hover Color",
+          "type": "color"
+        },
+        "shop-now-btn-link": {
+          "default": null,
+          "info": null,
+          "label": "Shop Now Button Link",
+          "type": "url"
+        },
+        "show-cart-sidebar": {
+          "default": false,
+          "info": "[Leave Disabled in Production!]",
+          "label": "Show Cart Sidebar",
+          "type": "checkbox"
+        },
+        "show-products-view": {
+          "default": false,
+          "info": "[Leave Disabled in Production!]",
+          "label": "Show Cart with Products View",
+          "type": "checkbox"
+        }
+      },
+      "snippets_rendered": [
+        "processed-product-title",
+        "processed-product-title-pure"
+      ],
+      "snippets_rendered_transitive": [
+        "processed-product-title",
+        "processed-product-title-pure"
+      ],
+      "used_globally_by_layouts": [
+        "homepage-theme.liquid",
+        "page-cover-theme.liquid",
+        "page-text-theme-no-code-popup.liquid",
+        "page-text-theme.liquid",
+        "theme.gempages.footer.liquid",
+        "theme.gempages.header.liquid",
+        "theme.liquid"
+      ],
+      "used_in_section_groups": [],
+      "used_in_templates": []
+    },
+    "code-popup": {
+      "blocks": {},
+      "file": "sections/code-popup.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Code Popup",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "cancel-button-background-color": {
+          "default": "#595344",
+          "info": null,
+          "label": "Cancel Button Background Color",
+          "type": "color"
+        },
+        "cancel-button-border-color": {
+          "default": "#060607",
+          "info": null,
+          "label": "Cancel Button Border Color",
+          "type": "color"
+        },
+        "cancel-button-text": {
+          "default": "I don't want my gift",
+          "info": null,
+          "label": "Cancel Button Text",
+          "type": "text"
+        },
+        "cancel-button-text-color": {
+          "default": "#060607",
+          "info": null,
+          "label": "Cancel Button Text Color",
+          "type": "color"
+        },
+        "is-enabled": {
+          "default": true,
+          "info": null,
+          "label": "Is Enabled?",
+          "type": "checkbox"
+        },
+        "popup-appear-delay": {
+          "default": 5,
+          "info": null,
+          "label": "Popup Appear Delay (S)",
+          "type": "number"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [
+        "homepage-theme.liquid",
+        "page-cover-theme.liquid",
+        "page-text-theme.liquid",
+        "theme.liquid"
+      ],
+      "used_in_section_groups": [],
+      "used_in_templates": []
+    },
+    "collection": {
+      "blocks": {
+        "collection-grid-columns": {
+          "name": "Collection Grid Columns",
+          "settings": {
+            "collection-type": {
+              "default": null,
+              "info": null,
+              "label": "Collection",
+              "type": "collection"
+            },
+            "grid-columns": {
+              "default": 4,
+              "info": "Number of product columns on desktop (1024px and up)",
+              "label": "Desktop Grid Columns",
+              "type": "range"
+            }
+          }
+        },
+        "product-banner": {
+          "name": "Product Banner",
+          "settings": {
+            "collection-type": {
+              "default": null,
+              "info": null,
+              "label": "Collection Type",
+              "type": "collection"
+            },
+            "desktop_image": {
+              "default": null,
+              "info": null,
+              "label": "Desktop Banner Image",
+              "type": "image_picker"
+            },
+            "desktop_image_height": {
+              "default": -1,
+              "info": "Set to -1 to make it the size of the row",
+              "label": "Image Height (px)",
+              "type": "number"
+            },
+            "desktop_image_width": {
+              "default": -1,
+              "info": "1 = 1 Product Item Width, 2 = 2 Product Item Width, -1 = Row",
+              "label": "Image Width Across Columns",
+              "type": "number"
+            },
+            "desktop_image_x": {
+              "default": 50,
+              "info": "Horizontal focal point \u2014 0 = left, 50 = center, 100 = right",
+              "label": "Image X Position",
+              "type": "range"
+            },
+            "desktop_image_y": {
+              "default": 50,
+              "info": "Vertical focal point \u2014 0 = top, 50 = center, 100 = bottom",
+              "label": "Image Y Position",
+              "type": "range"
+            },
+            "desktop_image_zoom": {
+              "default": 100,
+              "info": "100 = no zoom, 200 = 2\u00d7 zoom",
+              "label": "Image Zoom",
+              "type": "range"
+            },
+            "image": {
+              "default": null,
+              "info": null,
+              "label": "Banner Image",
+              "type": "image_picker"
+            },
+            "image_height": {
+              "default": -1,
+              "info": "Set to -1 to make it the size of the row",
+              "label": "Image Height (px)",
+              "type": "number"
+            },
+            "image_preference": {
+              "default": "same",
+              "info": null,
+              "label": "Image Preference",
+              "type": "select"
+            },
+            "image_width": {
+              "default": -1,
+              "info": "1 = 1 Product Item Width, 2 = 2 Product Item Width, -1 = Row",
+              "label": "Image Width Across Columns",
+              "type": "number"
+            },
+            "image_x": {
+              "default": 50,
+              "info": "Horizontal focal point \u2014 0 = left, 50 = center, 100 = right",
+              "label": "Image X Position",
+              "type": "range"
+            },
+            "image_y": {
+              "default": 50,
+              "info": "Vertical focal point \u2014 0 = top, 50 = center, 100 = bottom",
+              "label": "Image Y Position",
+              "type": "range"
+            },
+            "image_zoom": {
+              "default": 100,
+              "info": "100 = no zoom, 200 = 2\u00d7 zoom",
+              "label": "Image Zoom",
+              "type": "range"
+            },
+            "insert_after_product": {
+              "default": 0,
+              "info": "Set to 10000 to be at end",
+              "label": "Insert After Product #",
+              "type": "number"
+            },
+            "mobile_image": {
+              "default": null,
+              "info": null,
+              "label": "Mobile Banner Image",
+              "type": "image_picker"
+            },
+            "mobile_image_height": {
+              "default": -1,
+              "info": "Set to -1 to make it the size of the row",
+              "label": "Image Height (px)",
+              "type": "number"
+            },
+            "mobile_image_width": {
+              "default": -1,
+              "info": "1 = 1 Product Item Width, 2 = 2 Product Item Width, -1 = Row",
+              "label": "Image Width Across Columns",
+              "type": "number"
+            },
+            "mobile_image_x": {
+              "default": 50,
+              "info": "Horizontal focal point \u2014 0 = left, 50 = center, 100 = right",
+              "label": "Image X Position",
+              "type": "range"
+            },
+            "mobile_image_y": {
+              "default": 50,
+              "info": "Vertical focal point \u2014 0 = top, 50 = center, 100 = bottom",
+              "label": "Image Y Position",
+              "type": "range"
+            },
+            "mobile_image_zoom": {
+              "default": 100,
+              "info": "100 = no zoom, 200 = 2\u00d7 zoom",
+              "label": "Image Zoom",
+              "type": "range"
+            },
+            "subtitle": {
+              "default": null,
+              "info": "Leave blank for 'No Title'",
+              "label": "Subtitle",
+              "type": "text"
+            },
+            "subtitle_size": {
+              "default": 16,
+              "info": null,
+              "label": "Subtitle Size",
+              "type": "range"
+            },
+            "text_color": {
+              "default": "#ffffff",
+              "info": null,
+              "label": "Text Color",
+              "type": "color"
+            },
+            "title": {
+              "default": null,
+              "info": "Leave blank for 'No Title'",
+              "label": "Title",
+              "type": "text"
+            },
+            "title_size": {
+              "default": 36,
+              "info": null,
+              "label": "Title Size",
+              "type": "range"
+            },
+            "visibility_preference": {
+              "default": "both",
+              "info": null,
+              "label": "Visibility Preference",
+              "type": "select"
+            }
+          }
+        }
+      },
+      "file": "sections/collection.liquid",
+      "max_blocks": null,
+      "metafields": [
+        "custom.fitting"
+      ],
+      "name": "Collection",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "desktop--grid-columns": {
+          "default": 4,
+          "info": "Fallback when a collection has no Collection Grid Columns block (1024px and up)",
+          "label": "Default Desktop Grid Columns",
+          "type": "range"
+        },
+        "desktop--min-product-width": {
+          "default": 297,
+          "info": null,
+          "label": "Desktop Minimum Product Item Width (PX)",
+          "type": "number"
+        },
+        "desktop--product-title-trademark-margin-left": {
+          "default": 1,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Desktop Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "filter-bar-collection-default": {
+          "default": null,
+          "info": "The Default Collection that Will Be Selected When URL is: (/collection/all)",
+          "label": "Filter Bar Collection Default",
+          "type": "collection"
+        },
+        "filter-bar-collection-title-remove-character": {
+          "default": "*",
+          "info": "The Character in Collection Title that Removes it from View",
+          "label": "Filter Bar Collection Title Remove  Character",
+          "type": "text"
+        },
+        "filter-item-selected-background-color": {
+          "default": "rgba(217, 217, 217, 1)",
+          "info": null,
+          "label": "Filter Item Selected Background Color",
+          "type": "color"
+        },
+        "mobile--min-product-width": {
+          "default": 165,
+          "info": null,
+          "label": "Mobile Minimum Product Item Width (PX)",
+          "type": "number"
+        },
+        "mobile--product-title-trademark-margin-left": {
+          "default": 1,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Mobile Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "no-products-text": {
+          "default": "No Products Available",
+          "info": null,
+          "label": "No Products Found Text",
+          "type": "text"
+        },
+        "product-item-new-badge-background-color": {
+          "default": "rgba(247, 231, 76, 1)",
+          "info": null,
+          "label": "Product Item New Badge Background Color",
+          "type": "color"
+        },
+        "product-item-new-badge-text-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Product Item New Badge Text Color",
+          "type": "color"
+        },
+        "product-item-sold-out-badge-background-color": {
+          "default": "rgba(86, 87, 87, 1)",
+          "info": null,
+          "label": "Product Item Sold Out Badge Background Color",
+          "type": "color"
+        },
+        "product-item-sold-out-badge-text-color": {
+          "default": "rgba(217, 217, 217, 1)",
+          "info": null,
+          "label": "Product Item Sold Out Badge Text Color",
+          "type": "color"
+        },
+        "product-item-sold-out-overlay-color": {
+          "default": "rgba(217, 217, 217, 0.7)",
+          "info": null,
+          "label": "Product Item Sold Out Overlay Color",
+          "type": "color"
+        },
+        "restock-alert-page": {
+          "default": null,
+          "info": "Create a page with template 'Restock Alert' and assign it here",
+          "label": "Restock Alert page",
+          "type": "page"
+        },
+        "restock-alert-tab-label": {
+          "default": "GET UPDATES",
+          "info": null,
+          "label": "Restock Alert tab label",
+          "type": "text"
+        },
+        "show-product-item-full-title": {
+          "default": true,
+          "info": "Ex: Double-Zip Hoodie (BLK)",
+          "label": "Show Full Product Title",
+          "type": "checkbox"
+        },
+        "show-restock-alert-tab": {
+          "default": true,
+          "info": null,
+          "label": "Show Restock Alert tab",
+          "type": "checkbox"
+        }
+      },
+      "snippets_rendered": [
+        "processed-product-title",
+        "product-banner"
+      ],
+      "snippets_rendered_transitive": [
+        "processed-product-title",
+        "product-banner"
+      ],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/collection.json"
+        },
+        {
+          "layout": "theme",
+          "template": "templates/index.json"
+        }
+      ]
+    },
+    "community-side-panel": {
+      "blocks": {},
+      "file": "sections/community-side-panel.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Community Side Panel",
+      "preset_category": "Product",
+      "references_metaobject": false,
+      "settings": {
+        "no-items-text": {
+          "default": "No Items Available",
+          "info": null,
+          "label": "No Itmes Text",
+          "type": "text"
+        },
+        "scroll-amount": {
+          "default": 600,
+          "info": null,
+          "label": "Arrow Nav Button Scroll Amount (PX)",
+          "type": "number"
+        },
+        "title": {
+          "default": "Styled By The Community",
+          "info": null,
+          "label": "Title",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/product.json"
+        }
+      ]
+    },
+    "contact": {
+      "blocks": {},
+      "file": "sections/contact.liquid",
+      "max_blocks": 1,
+      "metafields": [],
+      "name": "Contact",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "body-text": {
+          "default": "<p>Please fill in the form below or email us at <strong>getbasement@gmail.com.</strong></p>",
+          "info": null,
+          "label": "Body Text",
+          "type": "richtext"
+        },
+        "email-input-error-text": {
+          "default": "Enter a valid email!",
+          "info": null,
+          "label": "Email Input Error Text",
+          "type": "text"
+        },
+        "email-input-placeholder-text": {
+          "default": "Email",
+          "info": null,
+          "label": "Email Input Placeholder Text",
+          "type": "text"
+        },
+        "message-input-placeholder-text": {
+          "default": "Message",
+          "info": null,
+          "label": "Message Input Placeholder Text",
+          "type": "text"
+        },
+        "name-input-placeholder-text": {
+          "default": "Name",
+          "info": null,
+          "label": "Name Input Placeholder Text",
+          "type": "text"
+        },
+        "subject-input-placeholder-text": {
+          "default": "SUBJECT (ORDER NUMBER IF APPLICABLE)",
+          "info": null,
+          "label": "Subject Input Placeholder Text",
+          "type": "text"
+        },
+        "submit-btn-text": {
+          "default": "Submit",
+          "info": null,
+          "label": "Submit Button Text",
+          "type": "text"
+        },
+        "submit-text": {
+          "default": "All fields are required to submit.",
+          "info": null,
+          "label": "Submit Text",
+          "type": "text"
+        },
+        "title-text": {
+          "default": "Get in Touch",
+          "info": null,
+          "label": "Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-cover-theme",
+          "template": "templates/page.Contact.json"
+        }
+      ]
+    },
+    "default-page": {
+      "blocks": {},
+      "file": "sections/default-page.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Default Page",
+      "preset_category": "Main",
+      "references_metaobject": false,
+      "settings": {},
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-text-theme",
+          "template": "templates/page.json"
+        }
+      ]
+    },
+    "faq-page": {
+      "blocks": {},
+      "file": "sections/faq-page.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "FAQ Page",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "title-text": {
+          "default": "FAQ",
+          "info": null,
+          "label": "Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-text-theme",
+          "template": "templates/page.FAQ.json"
+        }
+      ]
+    },
+    "footer": {
+      "blocks": {},
+      "file": "sections/footer.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Footer",
+      "preset_category": "Layout",
+      "references_metaobject": false,
+      "settings": {
+        "background-color": {
+          "default": "rgba(17, 17, 17, 1)",
+          "info": null,
+          "label": "Background Color",
+          "type": "color"
+        },
+        "basement-logo-link": {
+          "default": "/",
+          "info": null,
+          "label": "Basement Logo Link",
+          "type": "url"
+        },
+        "border-color": {
+          "default": "rgba(255, 255, 255, 0.1)",
+          "info": null,
+          "label": "Border Color",
+          "type": "color"
+        },
+        "copyright-text": {
+          "default": "@Basement 2025.",
+          "info": null,
+          "label": "Copyright Text",
+          "type": "text"
+        },
+        "footer-main-menu": {
+          "default": null,
+          "info": "(Can Be Configured on Admin Page -> Content -> Menus)",
+          "label": "Footer Main Menu",
+          "type": "link_list"
+        },
+        "footer-social-menu": {
+          "default": null,
+          "info": "(Can Be Configured on Admin Page -> Content -> Menus)",
+          "label": "Footer Social Menu",
+          "type": "link_list"
+        },
+        "is-early-access-enabled": {
+          "default": true,
+          "info": null,
+          "label": "Enable Early Access?",
+          "type": "checkbox"
+        },
+        "label-text": {
+          "default": "Get Early Access",
+          "info": null,
+          "label": "Early Access Label Text",
+          "type": "text"
+        },
+        "placeholder-input-text": {
+          "default": "Email",
+          "info": null,
+          "label": "Early Access Placeholder Input Text",
+          "type": "text"
+        },
+        "text-color": {
+          "default": "rgba(255, 255, 255, 1)",
+          "info": null,
+          "label": "Text Color",
+          "type": "color"
+        },
+        "text-hover-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Text Hover Color",
+          "type": "color"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [
+        "page-cover-theme.liquid",
+        "page-text-theme-no-code-popup.liquid",
+        "page-text-theme.liquid",
+        "theme.gempages.footer.liquid",
+        "theme.liquid"
+      ],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "password-theme",
+          "template": "templates/password.json"
+        }
+      ]
+    },
+    "header-menu": {
+      "blocks": {},
+      "file": "sections/header-menu.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Header Menu",
+      "preset_category": "Header Group",
+      "references_metaobject": false,
+      "settings": {
+        "active-shop-drawer-inactive-text-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Inactive Text Color when Shop Drawer is Active",
+          "type": "color"
+        },
+        "desktop--shop-menu-item-padding": {
+          "default": 8,
+          "info": "Specifies a Lower Padding to Prevent Accidentally Grazes",
+          "label": "Desktop Header Shop Menu Item Padding",
+          "type": "number"
+        },
+        "does-header-have-background": {
+          "default": true,
+          "info": "Not All Versions of Homepage Have a Background (Ex: Homepage)",
+          "label": "Does Header Have Background?",
+          "type": "checkbox"
+        },
+        "restock-alert-menu-label": {
+          "default": "GET UPDATES",
+          "info": null,
+          "label": "Restock Alert menu label",
+          "type": "text"
+        },
+        "restock-alert-page": {
+          "default": null,
+          "info": "Adds a link to the Restock Alert page in the navbar. Create a page with template 'Restock Alert' and assign it here.",
+          "label": "Restock Alert page",
+          "type": "page"
+        },
+        "text-color": {
+          "default": "#111111",
+          "info": null,
+          "label": "Text Color",
+          "type": "color"
+        },
+        "text-hover-color": {
+          "default": "#111111",
+          "info": null,
+          "label": "Text Hover Color",
+          "type": "color"
+        }
+      },
+      "snippets_rendered": [
+        "desktop-currency-selector"
+      ],
+      "snippets_rendered_transitive": [
+        "desktop-currency-selector"
+      ],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [
+        "header-group-no-background.json",
+        "header-group.json"
+      ],
+      "used_in_templates": []
+    },
+    "homepage": {
+      "blocks": {},
+      "file": "sections/homepage.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Homepage",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "background-graident-color": {
+          "default": "#000000",
+          "info": null,
+          "label": "Desktop Background Graident Color",
+          "type": "color"
+        },
+        "background-overlay-color": {
+          "default": "rgba(0, 0, 0, 0.2)",
+          "info": null,
+          "label": "Background Overlay Color",
+          "type": "color"
+        },
+        "btn-link": {
+          "default": "/collections/all",
+          "info": null,
+          "label": "Button Link",
+          "type": "url"
+        },
+        "desktop--background-graident-opacity": {
+          "default": 30,
+          "info": null,
+          "label": "Desktop Background Graident Opacity (%)",
+          "type": "range"
+        },
+        "desktop--background-graident-y-pos": {
+          "default": 30,
+          "info": null,
+          "label": "Desktop Background Graident End Y Position (%)",
+          "type": "range"
+        },
+        "desktop--background-image": {
+          "default": null,
+          "info": null,
+          "label": "Desktop Background Image",
+          "type": "image_picker"
+        },
+        "desktop--background-image-x-pos": {
+          "default": 0,
+          "info": null,
+          "label": "Desktop Background Image X Position From Center (%)",
+          "type": "number"
+        },
+        "desktop--background-image-y-pos": {
+          "default": 2,
+          "info": null,
+          "label": "Desktop Background Image Y Position From Center (%)",
+          "type": "number"
+        },
+        "desktop--background-image-zoom": {
+          "default": 105,
+          "info": null,
+          "label": "Desktop Background Image Zoom (%)",
+          "type": "number"
+        },
+        "desktop--background-video": {
+          "default": null,
+          "info": null,
+          "label": "Desktop Background Video",
+          "type": "video"
+        },
+        "media-type": {
+          "default": "image",
+          "info": null,
+          "label": "Media Type",
+          "type": "select"
+        },
+        "mobile--background-image": {
+          "default": null,
+          "info": null,
+          "label": "Mobile Background Image",
+          "type": "image_picker"
+        },
+        "mobile--background-image-x-pos": {
+          "default": 0,
+          "info": null,
+          "label": "Mobile Background Image X Position From Center (%)",
+          "type": "number"
+        },
+        "mobile--background-image-y-pos": {
+          "default": 0,
+          "info": null,
+          "label": "Mobile Background Image Y Position From Center (%)",
+          "type": "number"
+        },
+        "mobile--background-image-zoom": {
+          "default": 100,
+          "info": null,
+          "label": "Mobile Background Image Zoom (%)",
+          "type": "number"
+        },
+        "mobile--background-video": {
+          "default": null,
+          "info": null,
+          "label": "Mobile Background Video",
+          "type": "video"
+        },
+        "text": {
+          "default": "Enter Basement",
+          "info": null,
+          "label": "Text",
+          "type": "text"
+        },
+        "text-color": {
+          "default": "#ffffff",
+          "info": null,
+          "label": "Text Color",
+          "type": "color"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": []
+    },
+    "join-waitlist-modal": {
+      "blocks": {},
+      "file": "sections/join-waitlist-modal.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Join Waitlist Modal",
+      "preset_category": "Pages",
+      "references_metaobject": false,
+      "settings": {
+        "backdrop-color": {
+          "default": "rgba(17, 17, 17, 0.2)",
+          "info": null,
+          "label": "Backdrop Color",
+          "type": "color"
+        },
+        "background-color": {
+          "default": "rgba(170, 170, 170, 1)",
+          "info": null,
+          "label": "Background Color",
+          "type": "color"
+        },
+        "is-modal-for-product-page": {
+          "default": false,
+          "info": "Product Pages Give Modal a Different Layout from Other Pages",
+          "label": "Is Modal for Product Page?",
+          "type": "checkbox"
+        },
+        "klaviyo-form-id": {
+          "default": null,
+          "info": "Look for Series of Random Characters When Editing Form on Klaviyo",
+          "label": "Klaviyo Form ID",
+          "type": "text"
+        },
+        "title-text": {
+          "default": "Notify Me When Available",
+          "info": null,
+          "label": "Join Waitlist Modal Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/collection.json"
+        },
+        {
+          "layout": "theme",
+          "template": "templates/index.json"
+        },
+        {
+          "layout": "theme",
+          "template": "templates/product.json"
+        }
+      ]
+    },
+    "password": {
+      "blocks": {},
+      "file": "sections/password.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Password",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "countdown-done-text": {
+          "default": "Please Wait A Moment",
+          "info": null,
+          "label": "Countdown Done Text",
+          "type": "text"
+        },
+        "date-time-before-drop": {
+          "default": "08/25/2025 15:50:00",
+          "info": "Format: mm/dd/yyyy hh:mm:ss",
+          "label": "Date and Time Before Drop",
+          "type": "text"
+        },
+        "enter-btn-text": {
+          "default": "Enter",
+          "info": null,
+          "label": "Enter Button Text",
+          "type": "text"
+        },
+        "img-carousel-scroll-speed": {
+          "default": 1,
+          "info": "Never use decimals! (Safari doesn't understand decimals)",
+          "label": "Img Carousel Speed",
+          "type": "number"
+        },
+        "is-scrolling-img-carousel": {
+          "default": true,
+          "info": null,
+          "label": "Scroll Image Carousel?",
+          "type": "checkbox"
+        },
+        "klaviyo-form-id": {
+          "default": null,
+          "info": "Look for Series of Random Characters When Editing Form on Klaviyo",
+          "label": "Klaviyo Form ID",
+          "type": "text"
+        },
+        "password-btn-text": {
+          "default": "Password",
+          "info": null,
+          "label": "Password Button Text",
+          "type": "text"
+        },
+        "password-input-placeholder-text": {
+          "default": "Password",
+          "info": null,
+          "label": "Password Input Placeholder Text",
+          "type": "text"
+        },
+        "show-password-page": {
+          "default": false,
+          "info": "[Leave Disabled in Production!]",
+          "label": "Show Password Page",
+          "type": "checkbox"
+        },
+        "subscribe-btn-text": {
+          "default": "Subscribe",
+          "info": null,
+          "label": "Subscribe Button Text",
+          "type": "text"
+        },
+        "title-text": {
+          "default": "New Drop",
+          "info": null,
+          "label": "Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "password-theme",
+          "template": "templates/password.json"
+        }
+      ]
+    },
+    "policy-page": {
+      "blocks": {},
+      "file": "sections/policy-page.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Policy Page",
+      "preset_category": "Main",
+      "references_metaobject": false,
+      "settings": {},
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": []
+    },
+    "policy-page-section": {
+      "blocks": {},
+      "file": "sections/policy-page-section.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Policy Page Section",
+      "preset_category": "Main",
+      "references_metaobject": false,
+      "settings": {},
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-text-theme",
+          "template": "templates/page.Privacy-Policy.json"
+        }
+      ]
+    },
+    "product": {
+      "blocks": {},
+      "file": "sections/product.liquid",
+      "max_blocks": null,
+      "metafields": [
+        "custom.color_label",
+        "custom.color_value",
+        "custom.size_chart"
+      ],
+      "name": "Product",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "desktop--product-title-trademark-margin-left": {
+          "default": 4,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Desktop Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "mobile--product-title-trademark-margin-left": {
+          "default": 2,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Mobile Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "nav-btn-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Navigation Button Color",
+          "type": "color"
+        },
+        "nav-btn-hover-color": {
+          "default": "rgba(17, 17, 17, 0.65)",
+          "info": null,
+          "label": "Navigation Button Hover Color",
+          "type": "color"
+        },
+        "no-details-text": {
+          "default": "No Details Available",
+          "info": "Shown If No Description is Set on Admin Product Page",
+          "label": "No Details Text",
+          "type": "text"
+        },
+        "no-sizing-text": {
+          "default": "No Size Chart Available",
+          "info": "Shown If No 'SIZE CHART' is Set on Admin Product Page",
+          "label": "No Size Chart Text",
+          "type": "text"
+        },
+        "no-terms-text": {
+          "default": "No Terms Available",
+          "info": "Shown If No 'Terms' is Set on Admin Product Page",
+          "label": "No Terms Text",
+          "type": "text"
+        },
+        "preorder-tag-title": {
+          "default": "Preorder",
+          "info": "If Product has this Tag applied, the 'Preorder Text' will show",
+          "label": "Preorder Tag Title",
+          "type": "text"
+        },
+        "preorder-text": {
+          "default": "Preorder now. Ships in 4-8 weeks.",
+          "info": "Only visible when Product has the 'Preorder Tag Title' applied to it",
+          "label": "Preorder Text",
+          "type": "text"
+        },
+        "show-fullscreen-img": {
+          "default": false,
+          "info": "[Leave Disabled in Production!]",
+          "label": "Show Desktop Fullscreen Image View?",
+          "type": "checkbox"
+        },
+        "thumbnail-btn-selected-border-thickness": {
+          "default": 1,
+          "info": "(PX)",
+          "label": "Thumbnail Button Selected Border Thickness",
+          "type": "number"
+        }
+      },
+      "snippets_rendered": [
+        "processed-product-title"
+      ],
+      "snippets_rendered_transitive": [
+        "processed-product-title"
+      ],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/product.json"
+        }
+      ]
+    },
+    "radio-sidebar": {
+      "blocks": {},
+      "file": "sections/radio-sidebar.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Basement Radio Sidebar",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "background-color": {
+          "default": "#d7d8d7",
+          "info": null,
+          "label": "Background Color",
+          "type": "color"
+        },
+        "button-selected-color": {
+          "default": "#999999",
+          "info": null,
+          "label": "Button Selected Color",
+          "type": "color"
+        },
+        "mobile--exit-arrow-text": {
+          "default": "Click Arrow to Exit",
+          "info": null,
+          "label": "Mobile Exit Arrow Text",
+          "type": "text"
+        },
+        "primary-color": {
+          "default": "#3a3a3a",
+          "info": null,
+          "label": "Primary Color",
+          "type": "color"
+        },
+        "radio-default-img": {
+          "default": null,
+          "info": "Shown when other Radio Images Fail to Load",
+          "label": "Radio Default Image",
+          "type": "image_picker"
+        },
+        "secondary-color": {
+          "default": "#000000",
+          "info": null,
+          "label": "Secondary Color",
+          "type": "color"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [
+        "homepage-theme.liquid",
+        "page-cover-theme.liquid",
+        "page-text-theme-no-code-popup.liquid",
+        "page-text-theme.liquid",
+        "theme.liquid"
+      ],
+      "used_in_section_groups": [],
+      "used_in_templates": []
+    },
+    "related-products": {
+      "blocks": {},
+      "file": "sections/related-products.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Related Products",
+      "preset_category": "Product",
+      "references_metaobject": false,
+      "settings": {
+        "desktop--product-title-trademark-margin-left": {
+          "default": 4,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Desktop Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "loading-gif-background-color": {
+          "default": "rgba(17, 17, 17, 0.5)",
+          "info": null,
+          "label": "Loading Gif Background Color",
+          "type": "color"
+        },
+        "mobile--product-title-trademark-margin-left": {
+          "default": 2,
+          "info": "Adjusts Distance From the Left of Product Title",
+          "label": "Mobile Product Title Trademark Margin Left",
+          "type": "number"
+        },
+        "no-products-text": {
+          "default": "No Products Found",
+          "info": null,
+          "label": "No Products Text",
+          "type": "text"
+        },
+        "scroll-amount": {
+          "default": 600,
+          "info": null,
+          "label": "Arrow Nav Button Scroll Amount (PX)",
+          "type": "number"
+        },
+        "title": {
+          "default": "You may also like",
+          "info": null,
+          "label": "Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [
+        "related-product-item"
+      ],
+      "snippets_rendered_transitive": [
+        "processed-product-title",
+        "processed-product-title-pure",
+        "related-product-item"
+      ],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "theme",
+          "template": "templates/product.json"
+        }
+      ]
+    },
+    "signup": {
+      "blocks": {},
+      "file": "sections/signup.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Signup",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "countdown-done-text": {
+          "default": "DROP IS LIVE",
+          "info": null,
+          "label": "Countdown Done Text",
+          "type": "text"
+        },
+        "date-time-before-drop": {
+          "default": "12/31/2025 15:00:00",
+          "info": "Format: mm/dd/yyyy hh:mm:ss",
+          "label": "Date and Time Before Drop",
+          "type": "text"
+        },
+        "image": {
+          "default": null,
+          "info": null,
+          "label": "Image",
+          "type": "image_picker"
+        },
+        "klaviyo-form-id": {
+          "default": "X4vx3V",
+          "info": "Look for Series of Random Characters When Editing Form on Klaviyo. Example: X4vx3V",
+          "label": "Klaviyo Form ID",
+          "type": "text"
+        },
+        "show-countdown": {
+          "default": false,
+          "info": "Enable countdown timer for upcoming drop",
+          "label": "Show Countdown",
+          "type": "checkbox"
+        },
+        "show-image": {
+          "default": true,
+          "info": null,
+          "label": "Show Image",
+          "type": "checkbox"
+        },
+        "subtitle-text": {
+          "default": "SIGN UP TO BE THE FIRST TO KNOW",
+          "info": null,
+          "label": "Subtitle Text",
+          "type": "text"
+        },
+        "title-text": {
+          "default": "NEW DROP COMING SOON",
+          "info": null,
+          "label": "Title Text",
+          "type": "text"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-text-theme-no-code-popup",
+          "template": "templates/page.Signup.json"
+        },
+        {
+          "layout": "page-text-theme-no-code-popup",
+          "template": "templates/page.restock-alert.json"
+        }
+      ]
+    },
+    "spacer": {
+      "blocks": {},
+      "file": "sections/spacer.liquid",
+      "max_blocks": null,
+      "metafields": [],
+      "name": "Spacer",
+      "preset_category": null,
+      "references_metaobject": false,
+      "settings": {
+        "desktop--spacing": {
+          "default": 0,
+          "info": null,
+          "label": "Desktop Spacing (PX)",
+          "type": "number"
+        },
+        "has-mobile-and-desktop-variants": {
+          "default": false,
+          "info": null,
+          "label": "Has Mobile and Desktop Variants?",
+          "type": "checkbox"
+        },
+        "mobile--spacing": {
+          "default": 0,
+          "info": null,
+          "label": "Mobile Spacing (PX)",
+          "type": "number"
+        },
+        "spacing": {
+          "default": 0,
+          "info": null,
+          "label": "Spacing (PX)",
+          "type": "number"
+        }
+      },
+      "snippets_rendered": [],
+      "snippets_rendered_transitive": [],
+      "used_globally_by_layouts": [],
+      "used_in_section_groups": [],
+      "used_in_templates": [
+        {
+          "layout": "page-text-theme",
+          "template": "templates/page.Privacy-Policy.json"
+        }
+      ]
+    }
+  },
+  "theme_repo_path": "C:\\Users\\ygkar\\dev\\2025-Website"
+}
